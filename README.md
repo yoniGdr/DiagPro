@@ -275,3 +275,8 @@ Même si le projet répond aux besoins initiaux, voici quelques pistes d'amélio
 - Ajouter une validation côté serveur plus stricte des données envoyées par le client.
 
 - Protéger les routes critiques du backend avec une authentification (si besoin futur).
+
+### 🎥 Mini démo : 
+
+👉 [Cliquez ici pour voir une mini démo du projet](https://drive.google.com/file/d/1o_XlneRn7quD18-vXLbx06DlYD2qtvHF/view?usp=drive_link)
+
