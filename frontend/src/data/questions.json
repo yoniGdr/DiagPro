@@ -1,0 +1,275 @@
+[
+    {
+      "id": "q__0",
+      "label": "Mon problème concerne :",
+      "type": "radio",
+      "options": [
+        { "label": "Plomberie", "value": "plomberie", "nextQuestionId": "q__1" },
+        { "label": "Electricité", "value": "electricite" },
+        { "label": "Chauffage", "value": "chauffage" },
+        { "label": "Serrurerie", "value": "serrurerie" },
+        { "label": "Vitrerie", "value": "vitrerie" },
+        { "label": "Electroménager", "value": "electromenager"}
+      ]
+    },  
+    {
+      "id": "q__1",
+      "label": "Où se situe votre problème  ?",   
+      "type": "radio",
+      "options": [
+        {
+          "label": "lavabo",
+          "value": "lavabo",
+          "nextQuestionId": "q__1__lavabo"
+  
+        },
+        {
+          "label": "WC",
+          "value": "WC",
+          "nextQuestionId": "q__1__wc"
+        },
+        {
+          "label": "Douche",
+          "value": "Douche",
+          "nextQuestionId": "q__1__douche"
+        },
+        {
+          "label": "Colonne générale d'immeuble",
+          "value": "Colonne générale d'immeuble"
+        },
+        {
+          "label": "Tuyauterie",
+          "value": "Tuyauterie"
+        },
+        {
+          "label": "Chaudière",
+          "value": "Chaudière"
+        },
+  
+        {
+          "label": "Autre",
+          "value": "autre"
+        }
+      ]
+    },
+    {
+      "id": "q__1__wc",
+      "label": "Quelle est la nature de votre problème ?",
+      "type": "radio",
+      "options": [
+        {
+          "label": "Engorgement(WC bouché)",
+          "value": "Engorgement(WC bouché)",
+          "nextQuestionId": "q__2_1_wc"
+        },
+        {
+          "label": "Fuite (recherche de fuite)",
+          "value": "Fuite (recherche de fuite)",
+          "nextQuestionId": "q__2_1_wc"
+        },
+        {
+          "label": "Problème de fonctionnement (cuvette...)",
+          "value": "Problème de fonctionnement (cuvette...)",
+          "nextQuestionId": "q__2_1_wc"
+        },
+        {
+          "label": "Changement de WC",
+          "value": "Changement de WC",
+          "nextQuestionId": "q__2_1_wc"
+        }
+      ]
+    },
+    {
+      "id": "q__2_1_wc",
+      "label": "Quel type de WC possédez-vous ?",
+      "type": "radio",
+      "options": [
+        {
+          "label": "WC simple",
+          "value": "WC simple"
+        },
+        {
+          "label": "WC suspendu",
+          "value": "WC suspendu"
+        },
+        {
+          "label": "Autre",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "id": "q__1__lavabo",
+      "label": "Quelle est la nature de votre problème ?",
+      "type": "radio",
+      "options": [
+        {
+          "label": "Engorgement(lavabo / évier bouché)",
+          "value": "Engorgement(lavabo / évier bouché)",
+          "nextQuestionId": "q__2_1_lavabo"
+        },
+        {
+          "label": "Fuite / robinetterie",
+          "value": "Fuite / robinetterie",
+          "nextQuestionId": "q__2_2_lavabo"
+        },
+        {
+          "label": "Autre",
+          "value": "Autre",
+          "nextQuestionId": "q__2_3_lavabo"
+        }
+      ]
+    },
+    {
+      "id": "q__2_1_lavabo",
+      "label": "Votre lavabo possède-t-il un sanispeed ?",
+      "type": "radio",
+      "options": [
+        {
+          "label": "Oui",
+          "value": "oui"
+        },
+        {
+          "label": "Non",
+          "value": "non"
+        }
+      ]
+    },
+    {
+      "id": "q__2_2_lavabo",
+      "label": "D’où coule l’eau ?",
+      "type": "radio",
+      "options": [
+        {
+          "label": "Autour du robinet",
+          "value": "Autour du robinet"
+        },
+        {
+          "label": "Directement du robinet",
+          "value": "Directement du robinet"
+        },
+        {
+          "label": "Au niveau du siphon",
+          "value": "Au niveau du siphon"
+        },
+        {
+          "label": "Au niveau des flexibles",
+          "value": "Au niveau des flexibles"
+        }
+      ]
+    },
+    {
+      "id": "q__2_3_lavabo",
+      "label": "Voulez-vous effectuer ?",
+      "type": "radio",
+      "options": [
+        {
+          "label": "Changement de lavabo / évier",
+          "value": "Changement de lavabo / évier"
+        },
+        {
+          "label": "Installation du robinet",
+          "value": "Installation du robinet"
+        },
+        {
+          "label": "Autre",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "id": "q__1__douche",
+      "label": "Quelle est la nature de votre problème ?",
+      "type": "radio",
+      "options": [
+        {
+          "label": "Engorgement de douche (bouché)",
+          "value": "Engorgement de douche (bouché)"
+        },
+        {
+          "label": "Engorgement de baignoire (bouchée)",
+          "value": "Engorgement de baignoire (bouchée)"
+        },
+        {
+          "label": "Fuite de douche",
+          "value": "Fuite de douche",
+          "nextQuestionId": "q__2_3_douche"
+        },
+        {
+          "label": "Fuite de baignoire",
+          "value": "Fuite de baignoire",
+          "nextQuestionId": "q__2_4_douche"
+        },
+        {
+          "label": "Autre",
+          "value": "Autre",
+          "nextQuestionId": "q__2_5_douche"
+        }
+      ]
+    },
+    {
+      "id": "q__2_3_douche",
+      "label": "D’où coule l’eau ?",
+      "type": "radio",
+      "options": [
+        {
+          "label": "Du robinet",
+          "value": "Du robinet"
+        },
+        {
+          "label": "Du tuyau d’évacuation (sous la douche)",
+          "value": "Du tuyau d’évacuation (sous la douche)"
+        },
+        {
+          "label": "Inconnu",
+          "value": "Inconnu"
+        }
+      ]
+    },
+    {
+      "id": "q__2_4_douche",
+      "label": "D’où coule l’eau ?",
+      "type": "radio",
+      "options": [
+        {
+          "label": "Du robinet",
+          "value": "Du robinet"
+        },
+        {
+          "label": "Du tuyau d’évacuation",
+          "value": "Du tuyau d’évacuation"
+        },
+        {
+          "label": "Inconnu",
+          "value": "Inconnu"
+        }
+      ]
+    },
+    {
+      "id": "q__2_5_douche",
+      "label": "Voulez-vous effectuer ?",
+      "type": "radio",
+      "options": [
+        {
+          "label": "Installation de bac à douche",
+          "value": "Installation de bac à douche"
+        },
+        {
+          "label": "Installation de baignoire",
+          "value": "installation de baignoire"
+        },
+        {
+          "label": "Autre problème avec la douche",
+          "value": "Autre problème avec la douche"
+        },
+        {
+          "label": "Autre problème avec la baignoire",
+          "value": "Autre problème avec la baignoire"
+        },
+        {
+          "label": "Réfection des joints de la douche / baignoire",
+          "value": "Réfection des joints de la douche / baignoire"
+        }
+      ]
+    }
+  ]
